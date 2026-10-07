@@ -1,3 +1,4 @@
-# Taller #1 - Identificación gráfica de sistemas FOTD
-# Daniel Brito Guartán
-En este repositorio se encuentra el script de MATLAB donde se desarrollan todas las actividades correspondientes al Taller #1, incluido los archivos de mediciones del motor y los modelos en Simulink. 
+# Taller #1 - Identificación gráfica de sistemas FOTD - Daniel Brito Guartán
+
+ 
+Este repositorio contiene los archivos del primer taller de identificación de sistemas FOTD. El archivo datos_motor.csv contiene los datos experimentales de entrada y salida del motor. El archivo Taller_1_Identificacion_grafica_de_sistemas_FOTD.m es el script principal de MATLAB que importa los datos, realiza el análisis geométrico y calcula los parámetros por los tres métodos solicitados. Los archivos variacion_K.slx, variacion_tau.slx y variacion_theta.slx contienen los diagramas de bloques de Simulink creados para la actividad reto del análisis de sensibilidad. Para revisar y ejecutar correctamente el taller, debes descargar todos los archivos y guardarlos exactamente en la misma carpeta. Primero debes abrir y ejecutar el script .m en MATLAB; esto procesará los datos, mostrará los resultados en la consola y guardará las variables de los parámetros en el Workspace. Es obligatorio correr el script primero, ya que de lo contrario Simulink no tendrá los datos en memoria. Una vez que el script haya terminado de correr, ya puedes abrir cualquiera de los archivos .slx de Simulink y darle al botón de Run para visualizar el efecto de las variaciones en los gráficos correspondientes.
